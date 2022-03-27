@@ -21,6 +21,8 @@
       {{ if .Site.Params.copyright }}
       {{ i18n "copyright" }} &copy; {{ now.Format "2006" }} {{ .Site.Title }}.
       {{ end }}
+    </div>
+    <div class="col-xs-12">
       {{ if .Site.Params.credit }}
         <a href="https://tomanistor.com" target="_blank" rel="nofollow">{{ i18n "themeDevelopedBy" }} Toma Nistor</a>
       {{ end }}
